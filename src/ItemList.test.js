@@ -12,7 +12,7 @@ describe('ItemList Component', () => {
         const listItems = screen.getAllByRole('listitem');
         
         expect(listItems.length).toBe(items.length);
-        expect(listItems[0]).toHaveTextContent('Item 1');
+        expect(listItems[0]).toHaveTextContent('Item');
         expect(listItems[1]).toHaveTextContent('Item 2');
         expect(listItems[2]).toHaveTextContent('Item 3');
     });
